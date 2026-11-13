@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сархад Ибрагимов — Стоматолог</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e8f4f8 100%);
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .avatar {
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #3daea9;
+      box-shadow: 0 10px 40px rgba(61, 174, 153, 0.3);
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    
+    .subtitle {
+      color: #7f8c8d;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    
+    .phone {
+      display: inline-block;
+      background: #3daea9;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 15px;
+      transition: all 0.3s ease;
+    }
+    
+    .phone:hover {
+      background: #2f9a9b;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px rgba(61, 174, 153, 0.4);
+    }
+    
+    .about {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+      margin-bottom: 40px;
+    }
+    
+    .about h2 {
+      color: #3daea9;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+    
+    .about p {
+      color: #555;
+      line-height: 1.8;
+    }
+    
+    .services {
+      margin-bottom: 40px;
+    }
+    
+    .services h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #3daea9;
+      margin-bottom: 30px;
+    }
+    
+    .service-item {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.06);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .service-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(61, 174, 153, 0.2);
+    }
+    
+    .service-name h3 {
+      color: #2c3e50;
+      font-size: 1.3rem;
+      margin-bottom: 8px;
+    }
+    
+    .service-desc {
+      color: #7f8c8d;
+      font-size: 0.95rem;
+    }
+    
+    .service-price {
+      text-align: right;
+    }
+    
+    .price {
+      color: #3daea9;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    
+    .rating {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .stars {
+      color: #f39c12;
+      font-size: 1.4rem;
+    }
+    
+    .rating-text {
+      color: #555;
+      font-weight: 600;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #2c3e50;
+      color: white;
+      border-radius: 20px;
+      margin-top: 40px;
+    }
+    
+    footer p {
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+    
+    @media (max-width: 600px) {
+      .service-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+      }
+      
+      .service-price {
+        text-align: center;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="photo_2026-11-13_19-08-23.jpg" alt="Сархад Ибрагимов" class="avatar">
+      <h1>Ибрагимов Сархад</h1>
+      <p class="subtitle">Профессиональный стоматолог</p>
+      <a href="tel:+79667454860" class="phone">📞 +7 966 745 48 60</a>
+    </header>
+
+    <div class="about">
+      <h2>О специалисте</h2>
+      <p>
+        Приветствую! Я Ибрагимов Сархад — высококвалифицированный стоматолог с опытом более 10 лет. 
+        Специализируюсь на эстетической стоматологии, имплантации и восстановлении зубов. 
+        Моя цель — сделать вашу улыбку идеальной, используя только современные технологии и материалы премиум-класса.
+      </p>
+      <p style="margin-top: 15px;">
+        🌟 <strong>Высшая квалификационная категория</strong><br>
+        🎓 <strong>Специализация:</strong> Ортопед, эстетист-стоматолог<br>
+        ❤️ <strong>Подход к работе:</strong> Бережно, профессионально и с душой
+      </p>
+    </div>
+
+    <div class="rating">
+      <span class="stars">⭐⭐⭐⭐⭐</span>
+      <span class="rating-text">Отзывы пациентов: 4.9/5 (327 отзывов)</span>
+    </div>
+
+    <div class="services">
+      <h2>Услуги и цены</h2>
+
+      <div class="service-item">
+        <div class="service-name">
+          <h3>Консультация стоматолога</h3>
+          <p class="service-desc">Полный осмотр, диагностика, составление плана лечения</p>
+        </div>
+        <div class="service-price">
+          <span class="price">2 500 ₽</span>
+        </div>
+      </div>
+
+      <div class="service-item">
+        <h3>Лечение кариеса</h3>
+        <p class="service-desc">Временные и постоянные пломбы, лечение каналов</p>
+        <div class="price">от 3 000 ₽</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Отбеливание зубов (Zoom)</h3>
+        <p class="service-desc">Профессиональное отбелинение на 8-10 тонов за 45 минут</p>
+        <div class="price">12 000 ₽</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Виниры (керамические)</h3>
+        <p class="service-desc">Эстетическое восстановление передних зубов</p>
+        <div class="price">от 25 000 ₽ за зуб</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Имплантация зубов</h3>
+        <p class="service-desc">Установка имплантов Anyte, Osstem, Nobel Biocare</p>
+        <div class="price">от 45 000 ₽ за зуб</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Видео-протокол имплантации</h3>
+        <p class="service-desc">Установка с видеоконтролем для максимальной точности</p>
+        <div class="price">от 50 000 ₽ за зуб</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Хирургические операции</h3>
+        <p class="service-desc">Удаление зубов любой сложности, костная пластика</p>
+        <div class="price">от 5 000 ₽</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Протезирование на имплантах</h3>
+        <p class="service-desc">Коронки из диоксида циркония, металлокерамика</p>
+        <div class="price">от 20 000 ₽ за зуб</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Ортодонтия (брекеты)</h3>
+        <p class="service-desc">Исправление прикуса, удаление зубов под наблюдением</p>
+        <div class="price">от 60 000 ₽ за зуб</div>
+      </div>
+
+      <div class="service-item">
+        <h3>Гигиеническая чистка</h3>
+        <p class="service-desc">Ультразвуковая чистка + полировка + фторирование</p>
+        <div class="price">4 500 ₽</div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>© 2026 Ибрагимов Сархад — Стоматологическая практика</p>
+      <p>Работаю без выходных: Пн-Вс с 10:00 до 20:00</p>
+    </footer>
+  </div>
+</body>
+</html>
